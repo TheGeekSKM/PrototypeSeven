@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_HealthBar_Foreground",
-    "path": "sprites/spr_HealthBar_Foreground/spr_HealthBar_Foreground.yy",
+    "name": "spr_Placeholder_Pickups",
+    "path": "sprites/spr_Placeholder_Pickups/spr_Placeholder_Pickups.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Pickups",
+    "path": "folders/Objects/Pickups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_HealthBar",
+  "name": "obj_BasePickup",
   "tags": [],
   "resourceType": "GMObject",
 }

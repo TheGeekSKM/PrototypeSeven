@@ -14,7 +14,9 @@
     {"id":{"name":"spr_HealthBar_Foreground","path":"sprites/spr_HealthBar_Foreground/spr_HealthBar_Foreground.yy",},"order":2,},
     {"id":{"name":"spr_Barrier16","path":"sprites/spr_Barrier16/spr_Barrier16.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
+    {"id":{"name":"obj_BasePickup","path":"objects/obj_BasePickup/obj_BasePickup.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
+    {"id":{"name":"spr_Placeholder_Pickups","path":"sprites/spr_Placeholder_Pickups/spr_Placeholder_Pickups.yy",},"order":3,},
     {"id":{"name":"spr_Placeholder_Player","path":"sprites/spr_Placeholder_Player/spr_Placeholder_Player.yy",},"order":0,},
     {"id":{"name":"spr_HealthBar_Background","path":"sprites/spr_HealthBar_Background/spr_HealthBar_Background.yy",},"order":1,},
     {"id":{"name":"spr_Barrier48","path":"sprites/spr_Barrier48/spr_Barrier48.yy",},"order":3,},
@@ -74,6 +76,7 @@
     {"folderPath":"folders/Objects/GUI.yy","order":6,"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Button.yy","order":5,"resourceVersion":"1.0","name":"Button","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Buttons.yy","order":7,"resourceVersion":"1.0","name":"Buttons","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Pickups.yy","order":8,"resourceVersion":"1.0","name":"Pickups","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

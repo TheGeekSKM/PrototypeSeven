@@ -12,3 +12,5 @@ current_health = 100;
 max_health = current_health;
 
 doOnce_collision = false;
+
+timer_NOS = 0;

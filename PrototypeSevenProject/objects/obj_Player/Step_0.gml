@@ -62,8 +62,24 @@ if (reset_NOS)
 {
 	if (nos < nosMax)
 	{
-		nos++;
+		if (timer_NOS == 15)
+		{
+			nos++;
+			timer_NOS = 0;
+		}
+		else
+		{
+			timer_NOS++;
+		}
 	}
+	else
+	{
+		timer_NOS = 0;
+	}
+}
+else
+{
+	timer_NOS = 0;
 }
 
 
