@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_StaminaBar_Foreground",
+    "path": "sprites/spr_StaminaBar_Foreground/spr_StaminaBar_Foreground.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

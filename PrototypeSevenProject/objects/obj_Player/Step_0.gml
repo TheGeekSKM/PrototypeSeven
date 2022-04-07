@@ -1,4 +1,6 @@
-
+if (obj_EscapeButton.game_paused == 0)
+{
+	
 if (current_health <= 0)
 {
 	//TODO: include game end code here
@@ -8,7 +10,7 @@ if (current_health <= 0)
 if (current_health > max_health) { current_health = max_health; }
 
 /// first check for collision event
-if (place_meeting(x+hspeed,y+vspeed,obj_wall))
+if (place_meeting(x+hspeed,y+vspeed,obj_wall) || place_meeting(x+hspeed,y+vspeed,obj_Obstacle))
 {
 	x=xprevious;
 	y=yprevious;
@@ -91,7 +93,7 @@ if (keyboard_check(ord("W")))
 }
 
 //check to see if this causes collision	
-if (place_meeting(x+hspeed,y+vspeed,obj_wall))
+if (place_meeting(x+hspeed,y+vspeed,obj_wall) || place_meeting(x+hspeed,y+vspeed,obj_Obstacle))
 {
 	x=xprevious;
 	y=yprevious;
@@ -170,7 +172,7 @@ if (keyboard_check(ord("S")))
 }
 
 //check to see if this causes collision	
-if (place_meeting(x+hspeed,y+vspeed,obj_wall))
+if (place_meeting(x+hspeed,y+vspeed,obj_wall) || place_meeting(x+hspeed,y+vspeed,obj_Obstacle))
 {
 	x=xprevious;
 	y=yprevious;
@@ -186,4 +188,9 @@ if (place_meeting(x+hspeed,y+vspeed,obj_wall))
 else
 {
 	doOnce_collision = false;
+}
+}
+else
+{
+	speed = 0;
 }

@@ -1,4 +1,4 @@
-stamina_bar_x = 0;
-stamina_bar_y = 56;
-stamina_bar_width = 276;
-stamina_bar_height = 48;
+stamina_bar_x = x;
+stamina_bar_y = y;
+stamina_bar_width = sprite_width - 5;
+stamina_bar_height = sprite_height;

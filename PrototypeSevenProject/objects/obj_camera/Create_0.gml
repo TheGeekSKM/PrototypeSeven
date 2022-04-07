@@ -1,4 +1,7 @@
-image_scale = 6;
+image_scale = 4;
+view_width = 0;
+view_height = 0;
+
 
 view_width = 2400 / image_scale;
 view_height = 1800 / image_scale;

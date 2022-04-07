@@ -17,3 +17,8 @@ timer_NOS = 0;
 
 //Inventory
 base_pickups = 0;
+
+//Respawn
+respawn_x = x;
+respawn_y = y;
+

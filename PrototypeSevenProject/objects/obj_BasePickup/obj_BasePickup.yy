@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Placeholder_Pickups",
-    "path": "sprites/spr_Placeholder_Pickups/spr_Placeholder_Pickups.yy",
+    "name": "spr_iceCream_strip8",
+    "path": "sprites/spr_iceCream_strip8/spr_iceCream_strip8.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,6 +23,8 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Obstacle","path":"objects/obj_Obstacle/obj_Obstacle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

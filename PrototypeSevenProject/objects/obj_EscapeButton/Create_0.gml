@@ -1,7 +1,9 @@
-widthButton = sprite_width * 2;
-heightButton = sprite_height * 2;
-value_x = 1200 - widthButton - 10;
-value_y = 10;
+widthButton = 26 * 1.5;
+heightButton = 28 * 1.5;
+value_x = x;
+value_y = y;
 
 doOnce = false;
 hover = false;
+
+game_paused = false;
