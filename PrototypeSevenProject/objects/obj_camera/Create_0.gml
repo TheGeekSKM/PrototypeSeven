@@ -2,6 +2,7 @@ image_scale = 6;
 
 view_width = 2400 / image_scale;
 view_height = 1800 / image_scale;
+
 window_scale = 3;
 
 //Camera Settings
